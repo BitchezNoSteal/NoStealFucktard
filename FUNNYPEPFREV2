@@ -81,12 +81,24 @@ Section:NewButton("Eerin", "FE Eerin",function()
 loadstring(game:HttpGet('https://pastebin.com/raw/vn3uts8j'))()
 end)
 
-Section:NewButton("Machine Gun", "FE Machine Gun",function()
-loadstring(game:HttpGet('https://pastebin.com/raw/u1LUePrA'))()
+Section:NewButton("Devil Block", "FE Devil Block",function()
+loadstring(game:HttpGet('https://gist.githubusercontent.com/MoonDevRed/cf43c469966a6867af1fcd20062ae3cb/raw/ead668e586fa92f8a37e405caff6475bd2c7d697/Fe%2520Devil%2520Block%2520Fixed%2520By%2520Red%2520Moon'))()
 end)
 
 Section:NewButton("Bomber", "FE Bomber",function()
 loadstring(game:HttpGet('https://gist.githubusercontent.com/MoonDevRed/7af633eb0856b8ffb50051124abef7e7/raw/fd63a37793cb0ad99fdfe7fca35afc4c751b6c3d/FE%2520BOMBER%2520BY%2520RED%2520MOON'))()
+end)
+
+Section:NewButton("Villian", "FE Villian",function()
+loadstring(game:HttpGet('https://pastebin.com/raw/ySiL7rza'))()
+end)
+
+Section:NewButton("V2 NepV", "FE V2 NepV",function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/u1LUePrA'),true))()
+end)
+
+Section:NewButton("Addict", "FE Addict",function()
+loadstring(game:HttpGet('https://pastebin.com/raw/V7R0KEvZ'))()
 end)
 
 local Tab = Window:NewTab("Others")
