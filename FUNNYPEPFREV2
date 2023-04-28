@@ -73,6 +73,22 @@ Section:NewButton("Ruin EX", "FE Ruin EX",function()
 loadstring(game:HttpGet('https://pastebin.com/raw/zS6MvNPT'))() 
 end)
 
+Section:NewButton("Stand", "FE Stand",function()
+loadstring(game:HttpGet('https://gist.githubusercontent.com/MoonDevRed/3c85fc6b7944ccb371859036b7368c4e/raw/e1803dd61983e26202a17744c2315eb7330a18e1/FE%2520STAND%2520BY%2520RED%2520MOON'))()
+end)
+
+Section:NewButton("Eerin", "FE Eerin",function()
+loadstring(game:HttpGet('https://pastebin.com/raw/vn3uts8j'))()
+end)
+
+Section:NewButton("Machine Gun", "FE Machine Gun",function()
+loadstring(game:HttpGet('https://pastebin.com/raw/u1LUePrA'))()
+end)
+
+Section:NewButton("Bomber", "FE Bomber",function()
+loadstring(game:HttpGet('https://gist.githubusercontent.com/MoonDevRed/7af633eb0856b8ffb50051124abef7e7/raw/fd63a37793cb0ad99fdfe7fca35afc4c751b6c3d/FE%2520BOMBER%2520BY%2520RED%2520MOON'))()
+end)
+
 local Tab = Window:NewTab("Others")
 
 local Section = Tab:NewSection("Other Scripts")
